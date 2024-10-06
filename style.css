@@ -74,7 +74,7 @@ body{
     flex-direction: column;
     height: auto;
     position: absolute;
-    top: -500px;
+    top: -100%;
     opacity: 0;
     z-index: 3;
     border-radius: 10px;
@@ -394,6 +394,21 @@ body{
 }
 
 
+@media screen and (max-width:670px) {
+    .box-condition, .box-start-game, .box-question{
+        width: 90%;
+    }
+}
+@media screen and (max-width:548px) {
+    .box-condition h2{
+        text-align: center;
+        display: block;
+        font-size: 20px;
+    }
+    .box-condition li{
+        font-size: 15px;
+    }
+}
 
 
 
