@@ -337,7 +337,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* transform: scale(0.5); */
+    transform: scale(0.5);
     opacity: 0;
 }
 
@@ -395,8 +395,29 @@ body{
 
 
 @media screen and (max-width:670px) {
-    .box-condition, .box-start-game, .box-question, .box-resultat{
+    .box-condition, .box-start-game, .box-question{
         width: 90%;
+    }
+    .box-resultat{
+        width: 70%;
+    }
+    .rond-score{
+        padding: 50px;
+        font-weight: bolder;
+        font-size: 40px;
+        border: 5px solid black;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    #btnRecommencer{
+        background: rgb(90, 8, 178);
+        border: none;
+        cursor: pointer;
+        padding: 10px 40px;
+        border-radius: 999px;
+        color: white;
+        font-weight: bolder;
+        animation: zoom-try 1s linear infinite alternate;
     }
 }
 @media screen and (max-width:548px) {
