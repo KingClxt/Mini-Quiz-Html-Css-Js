@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-acceuil">
+        <h1>QUIZ</h1>
+        <button id="btn-begin">Commencer le quiz</button>
+        <div class="box-wrap">
+            <div class="box-condition">
+                <h2>Condition generale</h2>
+                <ul>
+
+                    <li>
+                        <img src="img/check.png" alt="">
+                        Respecter la communauter
+                    </li>
+
+                    <li>
+                        <img src="img/check.png" alt="">
+                        Ne pas utiliser d'outil de hack
+                    </li>
+
+                    <li>
+                        <img src="img/check.png" alt="">
+                        Pas de racisme
+                    </li>
+
+                    <li>
+                        <img src="img/check.png" alt="">
+                        Apporter de bone critique</li>
+
+                    <div class="cont-btn-cond">
+                        <button id="btnAccepter">Accepter</button>
+                        <button id="btnRefuser">Refuser</button>
+                    </div>
+                </ul>
+            </div>
+            <div class="box-start-game">
+                <h2>Etes vous pret ?</h2>
+                <button id="btn-ready">OUI</button>
+            </div>
+            <div class="box-question">
+                <h3 id="titre-question">
+
+                </h3>
+                <div class="question q1"></div>
+                <div class="question q2"></div>
+                <div class="question q3"></div>
+                <div class="question q4"></div>
+                <div class="cont-btn-valider">
+                    <button id="valider">Valider</button>
+                </div>
+            </div>
+            <div class="box-resultat">
+                <h2>SCORE:</h2>
+                <div class="rond-score">
+                    <div class="score"></div>
+                </div>
+                <button id="btnRecommencer">Recommencer le jeux</button>
+            </div>
+        </div>
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
