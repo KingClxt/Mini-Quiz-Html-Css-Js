@@ -395,7 +395,7 @@ body{
 
 
 @media screen and (max-width:670px) {
-    .box-condition, .box-start-game, .box-question{
+    .box-condition, .box-start-game, .box-question, .box-resultat{
         width: 90%;
     }
 }
@@ -406,7 +406,7 @@ body{
         font-size: 20px;
     }
     .box-condition li{
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
