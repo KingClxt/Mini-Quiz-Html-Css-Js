@@ -337,7 +337,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transform: scale(0.5);
+    /* transform: scale(0.5); */
     opacity: 0;
 }
 
@@ -406,7 +406,7 @@ body{
         font-size: 20px;
     }
     .box-condition li{
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
